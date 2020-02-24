@@ -1,0 +1,11 @@
+import func
+flag = True
+print("WELCOME TO MOVIE MANAGMENT")
+print('****************************')
+while flag:
+    a = input("PRESS E TO ENTER : ")
+    if a=='e' or a=='E':
+        print(func.add())
+    else:
+        print("invalid charater")
+        break
